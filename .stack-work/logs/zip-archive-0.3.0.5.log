@@ -1,0 +1,37 @@
+[1 of 1] Compiling Main             ( /tmp/stack4980/zip-archive-0.3.0.5/Setup.lhs, /tmp/stack4980/zip-archive-0.3.0.5/.stack-work/dist/x86_64-linux/Cabal-1.24.0.0/setup/Main.o )
+Linking /tmp/stack4980/zip-archive-0.3.0.5/.stack-work/dist/x86_64-linux/Cabal-1.24.0.0/setup/setup ...
+setup: unable to decommit memory: Invalid argument
+setup: unable to decommit memory: Invalid argument
+Configuring zip-archive-0.3.0.5...
+setup: unable to decommit memory: Invalid argument
+setup: unable to decommit memory: Invalid argument
+setup: unable to decommit memory: Invalid argument
+setup: unable to decommit memory: Invalid argument
+setup: unable to decommit memory: Invalid argument
+Building zip-archive-0.3.0.5...
+Preprocessing library zip-archive-0.3.0.5...
+[1 of 1] Compiling Codec.Archive.Zip ( src/Codec/Archive/Zip.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Codec/Archive/Zip.o )
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+setup: unable to decommit memory: Invalid argument
+Installing library in
+/home/ppk/.stack/snapshots/x86_64-linux/lts-7.9/8.0.1/lib/x86_64-linux-ghc-8.0.1/zip-archive-0.3.0.5-CJh6oJJVhb55DLEay0EUF2
+setup: unable to decommit memory: Invalid argument
+Registering zip-archive-0.3.0.5...
+setup: unable to decommit memory: Invalid argument

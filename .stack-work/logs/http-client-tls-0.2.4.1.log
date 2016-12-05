@@ -1,0 +1,17 @@
+Configuring http-client-tls-0.2.4.1...
+Building http-client-tls-0.2.4.1...
+Preprocessing library http-client-tls-0.2.4.1...
+[1 of 1] Compiling Network.HTTP.Client.TLS ( Network/HTTP/Client/TLS.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Network/HTTP/Client/TLS.o )
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+Installing library in
+/home/ppk/.stack/snapshots/x86_64-linux/lts-7.9/8.0.1/lib/x86_64-linux-ghc-8.0.1/http-client-tls-0.2.4.1-G7z73Z2yzIs6kMHgZ6WqH5
+Registering http-client-tls-0.2.4.1...

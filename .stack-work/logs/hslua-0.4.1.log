@@ -1,0 +1,20 @@
+Configuring hslua-0.4.1...
+Building hslua-0.4.1...
+Preprocessing library hslua-0.4.1...
+[1 of 2] Compiling Scripting.Lua.Raw ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Scripting/Lua/Raw.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Scripting/Lua/Raw.o )
+[2 of 2] Compiling Scripting.Lua    ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Scripting/Lua.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Scripting/Lua.o )
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+Installing library in
+/home/ppk/.stack/snapshots/x86_64-linux/lts-7.9/8.0.1/lib/x86_64-linux-ghc-8.0.1/hslua-0.4.1-ILttwl0BoTHAtY84ykjTfV
+Registering hslua-0.4.1...

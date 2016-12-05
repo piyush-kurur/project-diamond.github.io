@@ -1,0 +1,1585 @@
+
+==================== FINAL INTERFACE ====================
+2016-12-05 13:59:35.11105537 UTC
+
+interface main@main:Website.News 8001
+  interface hash: 209ffcb2c0e1159603b365a5c4dc1bfc
+  ABI hash: e668c3639af4c9da695766451fb96644
+  export-list hash: 6e0da5339025e510ec18bcc07d5e4e9d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 9b276e138b81612a34203a95d619868c
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Website.News.allNewsField
+  Website.News.newsCxt
+  Website.News.newsField
+  Website.News.newsRules
+module dependencies: Config Website.Utils
+package dependencies: HTTP-4000.3.3@HTTP-4000.3.3-JMFhmeoXqbBIjfEWxmijf9
+                      StateVar-1.1.0.4@StateVar-1.1.0.4-CJpWsiXJdd89SnV9dZtTwc
+                      aeson-0.11.2.1@aeson-0.11.2.1-5ZQWuTFmffALcfpzDCXoOz
+                      ansi-terminal-0.6.2.3@ansi-terminal-0.6.2.3-448ipfN5j28Ha0AgPiJmdI
+                      ansi-wl-pprint-0.6.7.3@ansi-wl-pprint-0.6.7.3-LVnipygDrAR1FEMFhjxcQX
+                      appar-0.1.4@appar-0.1.4-1in4Ewd8JBkAYDZSWXLSe0
+                      array-0.5.1.1@array-0.5.1.1
+                      asn1-encoding-0.9.4@asn1-encoding-0.9.4-2Zu5ldLYD571Aw26w0CWF6
+                      asn1-parse-0.9.4@asn1-parse-0.9.4-Ai83ACtrOir9VlSOQtWm2F
+                      asn1-types-0.3.2@asn1-types-0.3.2-4Rz223aP8OG6vnHYiLX5Ab
+                      async-2.1.0@async-2.1.0-J6Pl8k3L4PKGEpjYdgwiIf
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-5Olk1S76r1CDYzFS6V3sZR
+                      auto-update-0.1.4@auto-update-0.1.4-GAesfFmqoZzBz6e09kRyzb
+                      base-4.9.0.0
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-In9M41tLtcS9QYt3QpGpNY
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-KWDLbdBYSBoALiMW0LHIz1
+                      blaze-html-0.8.1.2@blaze-html-0.8.1.2-2kD96kJB6JEGow1dP8IL6C
+                      blaze-markup-0.7.1.0@blaze-markup-0.7.1.0-5a5pBG0fO8kJX4ke3K7j3D
+                      byteable-0.1.1@byteable-0.1.1-15aIBCArSOBEnGxArzrDTM
+                      byteorder-1.0.4@byteorder-1.0.4-BbL4c17EpZrL9PcZm0xys9
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      case-insensitive-1.2.0.7@case-insensitive-1.2.0.7-FlqweN7AuKj9EdU2arVEt4
+                      cereal-0.5.4.0@cereal-0.5.4.0-2FJYHGgtE5C3SxaZjt25xS
+                      cmark-0.5.3.1@cmark-0.5.3.1-3cWrq0AuFQbCxWu8HTnsO4
+                      conduit-1.2.8@conduit-1.2.8-EbMKAZntGb8J1x2QTDUwHa
+                      conduit-extra-1.1.15@conduit-extra-1.1.15-5crfzH2OPIh7mXh34rJtsm
+                      connection-0.2.6@connection-0.2.6-3WwWUk6BHtn4Nkkdi7u09v
+                      containers-0.5.7.1@containers-0.5.7.1
+                      contravariant-1.4@contravariant-1.4-KSQE31a7FruKHDlp90hIUT
+                      cookie-0.4.2.1@cookie-0.4.2.1-2a2c54yIyBn79Ul3iLWclJ
+                      cryptohash-0.11.9@cryptohash-0.11.9-9KNu0EEbreBFrmNJAeHgYz
+                      cryptonite-0.19@cryptonite-0.19-G9PYO4oOEqhDTta2u9rAaU
+                      data-default-0.7.1.1@data-default-0.7.1.1-5uix4eIzBY9IcVb4V2HbW3
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-FYQpjIylblBDctdkHAFeXA
+                      data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-B3LqdWnlDzL8N7WtQnkQ3T
+                      data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-7EnnOuRxBMR4O5lm1rpRqD
+                      data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-LPOHPEJCJUa53W1ZYaHB84
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      digest-0.0.1.2@digest-0.0.1.2-Jkg2DJlP1uNCnEMQswznXb
+                      directory-1.2.6.2@directory-1.2.6.2
+                      dlist-0.8.0.2@dlist-0.8.0.2-GWAMmbX9rLg3tqrbOizHGv
+                      enclosed-exceptions-1.0.2@enclosed-exceptions-1.0.2-EmAQNrxL9UWFukgCkWIrO7
+                      exceptions-0.8.3@exceptions-0.8.3-7py7fmRxowDFpHmiHGKrTb
+                      extensible-exceptions-0.1.1.4@extensible-exceptions-0.1.1.4-3h0ykvvAO915cRhUyj3rRV
+                      file-embed-0.0.10@file-embed-0.0.10-IXfudWSq57y1Athysk5ifZ
+                      filemanip-0.3.6.3@filemanip-0.3.6.3-DFENeGbODv96RwGywUxkEu
+                      filepath-1.4.1.0@filepath-1.4.1.0
+                      fsnotify-0.2.1@fsnotify-0.2.1-AHgj8bHXWOKCEVA8FyxdDv
+                      ghc-boot-th-8.0.1@ghc-boot-th-8.0.1 ghc-prim-0.5.0.0
+                      haddock-library-1.4.2@haddock-library-1.4.2-F7UTHpERtmTC4fYnmJsN6z
+                      hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8
+                      hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G
+                      highlighting-kate-0.6.3@highlighting-kate-0.6.3-GfK9d1WbSbh32RELglsIGP
+                      hinotify-0.3.8.1@hinotify-0.3.8.1-Gq67SHpnhelljPBDnXAk3
+                      hourglass-0.2.10@hourglass-0.2.10-I8h0J4RSF89FN6CuD9x2Xx
+                      hs-bibutils-5.5@hs-bibutils-5.5-Bujn9fwi74P5NCilKdJf4S
+                      hslua-0.4.1@hslua-0.4.1-ILttwl0BoTHAtY84ykjTfV
+                      http-client-0.4.31.1@http-client-0.4.31.1-AXH0zbVALNomfaGzmkESC
+                      http-client-tls-0.2.4.1@http-client-tls-0.2.4.1-G7z73Z2yzIs6kMHgZ6WqH5
+                      http-date-0.0.6.1@http-date-0.0.6.1-150spKQYCuoIrltdbMmYGs
+                      http-types-0.9.1@http-types-0.9.1-8WdUZL4twHzANJbxvb1Aoj
+                      http2-1.6.2@http2-1.6.2-FAbjmjQAybhLjdn6FTjXH8 integer-gmp-1.0.0.1
+                      iproute-1.7.1@iproute-1.7.1-9hsGfRvggCmFA0ueZi5Sd9
+                      lifted-base-0.2.3.8@lifted-base-0.2.3.8-KLkd0w1UJqu6nE8oVTTEBy
+                      lrucache-1.2.0.0@lrucache-1.2.0.0-LDgHNBqTbkhHTMOg9pBnzo
+                      memory-0.13@memory-0.13-ABHR5331zHK9scHPRr7afU
+                      mime-types-0.1.0.7@mime-types-0.1.0.7-AxQ64wFjikqCSdK5pSeZvh
+                      mmorph-1.0.6@mmorph-1.0.6-3xsw6wg6Vs2JmwrJVsaYA0
+                      monad-control-1.0.1.0@monad-control-1.0.1.0-HoNEBoNfniX3vjSfkI7WTT
+                      mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM
+                      network-2.6.3.1@network-2.6.3.1-G4Up1CPKbp7DeFsnywOnGG
+                      network-uri-2.6.1.0@network-uri-2.6.1.0-DDHh2FNiPirBRgkuU9DEt2
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-6glXNhHF891B41ZfuI8hU8
+                      old-time-1.1.0.3@old-time-1.1.0.3-IcvdkJUsE9M8t3io8peAEp
+                      optparse-applicative-0.12.1.0@optparse-applicative-0.12.1.0-LOTKI1ZYRJkF3RPPjfyooJ
+                      pandoc-1.17.1@pandoc-1.17.1-IhLVH0fPo76GMcfIGgNVxM
+                      pandoc-citeproc-0.10.2.2@pandoc-citeproc-0.10.2.2-cg3nyeu8Eef6X54DARgX
+                      pandoc-types-1.16.1.1@pandoc-types-1.16.1.1-GZ3d2k3BFbEF6IHidErEww
+                      parsec-3.1.11@parsec-3.1.11-BCos4GEVCuDB8dnOCBHO6X
+                      pem-0.2.2@pem-0.2.2-qPMQP6sZm3HgQEmiBojNt
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa
+                      process-1.4.2.0@process-1.4.2.0
+                      psqueues-0.2.2.2@psqueues-0.2.2.2-Abmw1tivvf7JJikDhHX0px
+                      random-1.1@random-1.1-54KmMHXjttlERYcr1mvsAe
+                      regex-base-0.93.2@regex-base-0.93.2-4lnOy3Rb1yfISFVEXVfJuH
+                      regex-pcre-builtin-0.94.4.8.8.35@regex-pcre-builtin-0.94.4.8.8.35-251Z0W3Xo3HHzMMBdi2C25
+                      regex-tdfa-1.2.2@regex-tdfa-1.2.2-CO0fXSt7Xnx5AlZ7P2gfGO
+                      resourcet-1.1.8.1@resourcet-1.1.8.1-6TO3ZRd53Tm1jxZF0DDRMR
+                      rfc5051-0.1.0.3@rfc5051-0.1.0.3-Hc1JmjcKC9H3Xw0COFR7YY
+                      scientific-0.3.4.9@scientific-0.3.4.9-6oTYuCcx6H5BsTGU7D2Gk3
+                      setenv-0.1.1.3@setenv-0.1.1.3-5zeeXxY3qb3AsPnIgczcsm
+                      simple-sendfile-0.2.25@simple-sendfile-0.2.25-FZS0Stqtwd5AOyFRQgM4IV
+                      socks-0.5.5@socks-0.5.5-GieRokcgjQCIzUyRn9wVby
+                      split-0.2.3.1@split-0.2.3.1-IJKK4pOCYGKud0jZImZke
+                      stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF
+                      streaming-commons-0.1.16@streaming-commons-0.1.16-9hEivxR9E52HXPtNZCYgC8
+                      syb-0.6@syb-0.6-C65vWCsht6A8uLstpQIXyj
+                      tagged-0.8.5@tagged-0.8.5-CtgV6EcN0do8F92i1S6iYx
+                      tagsoup-0.14@tagsoup-0.14-HxE6zinFMUaDOGdOBKKTEg
+                      template-haskell-2.11.0.0
+                      temporary-1.2.0.4@temporary-1.2.0.4-HrDpr7Xe8eIBlscuzEzXU8
+                      texmath-0.8.6.7@texmath-0.8.6.7-LTLSo6wv0zA7ZV1W4tJG7F
+                      text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-1j5dGjxxtiTDuAsO86iSk0
+                      tls-1.3.8@tls-1.3.8-CzxsXSvjpYoCPIQzxK8lvq
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-25SoAegOdaF8rLEnnb5jPI
+                      unix-2.7.2.0@unix-2.7.2.0
+                      unix-compat-0.4.2.0@unix-compat-0.4.2.0-GNHotEMWE5dJ4oYFhgibIV
+                      unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-Eo9jd5DMz45DhBLCG8skzW
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-2T8mBCuEDlXDo8zed8Onw4
+                      vault-0.3.0.6@vault-0.3.0.6-CA9Xj82tAPe9nD32xVMgDG
+                      vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6
+                      wai-3.2.1.1@wai-3.2.1.1-f77bMYZGLQBAD3XJrvGiW
+                      wai-app-static-3.1.6.1@wai-app-static-3.1.6.1-GV4bXbpsHrKDk1BFp7k5qb
+                      warp-3.2.9@warp-3.2.9-7vlA9JtHn4oKB02ijj4JjZ
+                      word8-0.1.2@word8-0.1.2-2E1SgvvAV2fK8vZPDHbRan
+                      x509-1.6.4@x509-1.6.4-6B9ZDqgGkCVIm38P2dxBHw
+                      x509-store-1.6.2@x509-store-1.6.2-5D7pnN6Y3TrHd6cIzseTgS
+                      x509-system-1.6.4@x509-system-1.6.4-FYvwHDAYsJxAxMFnaUNC4t
+                      x509-validation-1.6.5@x509-validation-1.6.5-5ya4HcKwboeGStaXrxfWjW
+                      xml-1.3.14@xml-1.3.14-3wjuWY0dinH7o3REE9CkMx
+                      xml-conduit-1.3.5@xml-conduit-1.3.5-6urxvjPMTIUGOc2dO9oIjx
+                      xml-types-0.3.6@xml-types-0.3.6-Bb5WrjHEXfCBZIKHRgCxGn
+                      yaml-0.8.20@yaml-0.8.20-Bqdl5g31KZLFrXrGPo24Qq
+                      zip-archive-0.3.0.5@zip-archive-0.3.0.5-CJh6oJJVhb55DLEay0EUF2
+                      zlib-0.6.1.2@zlib-0.6.1.2-4CWLN1T27kOJhNvXgy46ZV
+orphans: aeson-0.11.2.1@aeson-0.11.2.1-5ZQWuTFmffALcfpzDCXoOz:Data.Aeson.Types.Generic
+         aeson-0.11.2.1@aeson-0.11.2.1-5ZQWuTFmffALcfpzDCXoOz:Data.Aeson.Types.Instances
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-5Olk1S76r1CDYzFS6V3sZR:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-5Olk1S76r1CDYzFS6V3sZR:Data.Attoparsec.Text.Internal
+         base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-B3LqdWnlDzL8N7WtQnkQ3T:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-7EnnOuRxBMR4O5lm1rpRqD:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-LPOHPEJCJUa53W1ZYaHB84:Data.Default.Instances.OldLocale
+         fsnotify-0.2.1@fsnotify-0.2.1-AHgj8bHXWOKCEVA8FyxdDv:System.FSNotify.Linux
+         haddock-library-1.4.2@haddock-library-1.4.2-F7UTHpERtmTC4fYnmJsN6z:Data.Attoparsec.ByteString.Char8
+         hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Web.Pandoc.Binary
+         hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G:Data.Hashable.Generic
+         http-client-0.4.31.1@http-client-0.4.31.1-AXH0zbVALNomfaGzmkESC:Network.HTTP.Client.Request
+         network-2.6.3.1@network-2.6.3.1-G4Up1CPKbp7DeFsnywOnGG:Network.Socket
+         pandoc-1.17.1@pandoc-1.17.1-IhLVH0fPo76GMcfIGgNVxM:Text.Pandoc.Writers.Custom
+         regex-base-0.93.2@regex-base-0.93.2-4lnOy3Rb1yfISFVEXVfJuH:Text.Regex.Base.Context
+         regex-pcre-builtin-0.94.4.8.8.35@regex-pcre-builtin-0.94.4.8.8.35-251Z0W3Xo3HHzMMBdi2C25:Text.Regex.PCRE.ByteString
+         regex-tdfa-1.2.2@regex-tdfa-1.2.2-CO0fXSt7Xnx5AlZ7P2gfGO:Text.Regex.TDFA.ByteString
+         regex-tdfa-1.2.2@regex-tdfa-1.2.2-CO0fXSt7Xnx5AlZ7P2gfGO:Text.Regex.TDFA.ByteString.Lazy
+         regex-tdfa-1.2.2@regex-tdfa-1.2.2-CO0fXSt7Xnx5AlZ7P2gfGO:Text.Regex.TDFA.Sequence
+         regex-tdfa-1.2.2@regex-tdfa-1.2.2-CO0fXSt7Xnx5AlZ7P2gfGO:Text.Regex.TDFA.String
+         stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF:Control.Monad.STM
+         syb-0.6@syb-0.6-C65vWCsht6A8uLstpQIXyj:Data.Generics.Instances
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-5Olk1S76r1CDYzFS6V3sZR:Data.Attoparsec.Internal.Types
+                         base-4.9.0.0:Control.Applicative base-4.9.0.0:Data.Complex
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Compose
+                         base-4.9.0.0:Data.Functor.Const base-4.9.0.0:Data.Functor.Identity
+                         base-4.9.0.0:Data.Functor.Product base-4.9.0.0:Data.Functor.Sum
+                         base-4.9.0.0:Data.List.NonEmpty base-4.9.0.0:Data.Monoid
+                         base-4.9.0.0:Data.Semigroup base-4.9.0.0:Data.Type.Equality
+                         base-4.9.0.0:Data.Version base-4.9.0.0:Data.Void
+                         base-4.9.0.0:GHC.Exts base-4.9.0.0:GHC.Generics
+                         base-4.9.0.0:GHC.IO.Exception base-4.9.0.0:GHC.TypeLits
+                         cmark-0.5.3.1@cmark-0.5.3.1-3cWrq0AuFQbCxWu8HTnsO4:CMark
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-GWAMmbX9rLg3tqrbOizHGv:Data.DList
+                         ghc-boot-th-8.0.1@ghc-boot-th-8.0.1:GHC.LanguageExtensions.Type
+                         haddock-library-1.4.2@haddock-library-1.4.2-F7UTHpERtmTC4fYnmJsN6z:Data.Attoparsec.Internal.Types
+                         http-client-0.4.31.1@http-client-0.4.31.1-AXH0zbVALNomfaGzmkESC:Network.HTTP.Client
+                         iproute-1.7.1@iproute-1.7.1-9hsGfRvggCmFA0ueZi5Sd9:Data.IP.Addr
+                         iproute-1.7.1@iproute-1.7.1-9hsGfRvggCmFA0ueZi5Sd9:Data.IP.Range
+                         monad-control-1.0.1.0@monad-control-1.0.1.0-HoNEBoNfniX3vjSfkI7WTT:Control.Monad.Trans.Control
+                         network-uri-2.6.1.0@network-uri-2.6.1.0-DDHh2FNiPirBRgkuU9DEt2:Network.URI
+                         pandoc-1.17.1@pandoc-1.17.1-IhLVH0fPo76GMcfIGgNVxM:Text.Pandoc.Error
+                         pandoc-1.17.1@pandoc-1.17.1-IhLVH0fPo76GMcfIGgNVxM:Text.Pandoc.Options
+                         pandoc-citeproc-0.10.2.2@pandoc-citeproc-0.10.2.2-cg3nyeu8Eef6X54DARgX:Text.CSL.Reference
+                         pandoc-citeproc-0.10.2.2@pandoc-citeproc-0.10.2.2-cg3nyeu8Eef6X54DARgX:Text.CSL.Style
+                         pandoc-types-1.16.1.1@pandoc-types-1.16.1.1-GZ3d2k3BFbEF6IHidErEww:Text.Pandoc.Builder
+                         pandoc-types-1.16.1.1@pandoc-types-1.16.1.1-GZ3d2k3BFbEF6IHidErEww:Text.Pandoc.Definition
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa:Control.Monad.Primitive
+                         resourcet-1.1.8.1@resourcet-1.1.8.1-6TO3ZRd53Tm1jxZF0DDRMR:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.5@tagged-0.8.5-CtgV6EcN0do8F92i1S6iYx:Data.Tagged
+                         template-haskell-2.11.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-Eo9jd5DMz45DhBLCG8skzW:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-Eo9jd5DMz45DhBLCG8skzW:Data.HashSet
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Unboxed.Base
+                         xml-types-0.3.6@xml-types-0.3.6-Bb5WrjHEXfCBZIKHRgCxGn:Data.XML.Types
+                         zlib-0.6.1.2@zlib-0.6.1.2-4CWLN1T27kOJhNvXgy46ZV:Codec.Compression.Zlib.Stream
+import  -/  base-4.9.0.0:Data.Foldable 8aeb682f6c74f97fcf0ace0d608a43ea
+import  -/  base-4.9.0.0:Data.Functor 6fc476505db88d678632a4a838125f13
+import  -/  base-4.9.0.0:Data.Monoid 1efae021212a10c79fd75960dc0a1d99
+import  -/  base-4.9.0.0:Data.String 69bb34ee5f2f4d95a41479e62b8fdc61
+import  -/  base-4.9.0.0:GHC.Base 8ed3be81c0707b322f975a84ae1bb816
+import  -/  base-4.9.0.0:GHC.IO 7ddc7086a7fc3b7d7043cc7bc59a04ba
+import  -/  base-4.9.0.0:GHC.List 13d2451194c1c6e53b4f4f07947736dd
+import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
+import  -/  filepath-1.4.1.0@filepath-1.4.1.0:System.FilePath 0b5688916a5465141a3ae31c75550632
+import  -/  filepath-1.4.1.0@filepath-1.4.1.0:System.FilePath.Posix eac18efc542b0ac135f23d684a83e785
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll 0c80eec064046b267b3ecab3dce159c0
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Core.Compiler 074a2e0e0118e2d61d3e712b1c31cbe6
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Core.Compiler.Internal ebc1cea0b33f66615b20794f3f6f2b86
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Core.Compiler.Require 9387c9ba08f0c54935d21aee9dff7517
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Core.Identifier 6c36214c8c4fd486d5f919aa7539f543
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Core.Identifier.Pattern 33e82d6ccb4b313eace1727974ab443a
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Core.Item d21829bc7336bea46ecee968e5be25a0
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Core.Rules 21481cb80e21760cc4a99ac80bb9744a
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Core.Rules.Internal e2f184db1f44f1dc5d36fe9b447d4d5e
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Web.Pandoc c0378e58ee94e9b2c76c835e124d3f29
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Web.Template.Context e1da9cb10332717254d0ccce4bc17079
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Web.Template.Internal 74875ec03d7d047fac6f847d9807bdff
+import  -/  hakyll-4.9.1.0@hakyll-4.9.1.0-Afp6ZUQzYW4875xXrjzai8:Hakyll.Web.Template.List eb3627365d8d54d1b22967ef92344262
+import  -/  Config 8c9205de3033749ae7001a4e49af0095
+  exports: d8e45a5f2bf0e0c6963aa6427ce4a68f
+  frontPageNewsItems 4e8a6a3e9c0f199c090186eb2e0b034b
+import  -/  Website.Utils 2d5edd267cfb11b822969bf9c7e49c35
+  exports: ed3a0e92931c6154584caaf3af53eb40
+  cleanRoute c69b29d37026ffa6d48b275eae4d1683
+  postProcess e54172fe0ae7867890e541f2c8bf5caf
+  postProcessTemplates 3ea30ce02ac3a300d42219ebad260971
+47351d158a865480e01df36e15eb2c3e
+  $stypeRep#2 :: Data.Typeable.Internal.TypeRep
+  {- Unfolding: (case Data.Typeable.Internal.typeRepFingerprints
+                        (GHC.Types.[] @ Data.Typeable.Internal.TypeRep)
+                        (GHC.Types.[]
+                           @ Data.Typeable.Internal.TypeRep) of kt_fps { DEFAULT ->
+                 case GHC.Fingerprint.fingerprintFingerprints
+                        (GHC.Types.:
+                           @ GHC.Fingerprint.Type.Fingerprint
+                           Website.News.$stypeRep#3
+                           kt_fps) of dt { GHC.Fingerprint.Type.Fingerprint dt1 dt2 ->
+                 Data.Typeable.Internal.TypeRep
+                   dt1
+                   dt2
+                   GHC.Types.$tc[]
+                   (GHC.Types.[] @ Data.Typeable.Internal.TypeRep)
+                   (GHC.Types.[] @ Data.Typeable.Internal.TypeRep) } }) -}
+2b45bc2b8c27329dd59a11b9e40d5c6d
+  $stypeRep#3 :: GHC.Fingerprint.Type.Fingerprint
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Fingerprint.Type.Fingerprint
+                   17730107610217102821##
+                   9866972337190828755##) -}
+a6ce2354f3d6c4129f3c549069d0b709
+  $stypeRep#6 :: Data.Typeable.Internal.TypeRep
+  {- Unfolding: (case Data.Typeable.Internal.typeRepFingerprints
+                        (GHC.Types.[] @ Data.Typeable.Internal.TypeRep)
+                        (GHC.Types.[]
+                           @ Data.Typeable.Internal.TypeRep) of kt_fps { DEFAULT ->
+                 case GHC.Fingerprint.fingerprintFingerprints
+                        (GHC.Types.:
+                           @ GHC.Fingerprint.Type.Fingerprint
+                           Website.News.$stypeRep#7
+                           kt_fps) of dt { GHC.Fingerprint.Type.Fingerprint dt1 dt2 ->
+                 Data.Typeable.Internal.TypeRep
+                   dt1
+                   dt2
+                   GHC.Types.$tcChar
+                   (GHC.Types.[] @ Data.Typeable.Internal.TypeRep)
+                   (GHC.Types.[] @ Data.Typeable.Internal.TypeRep) } }) -}
+30dc0c06bb616e3e00694cb66ca8b85c
+  $stypeRep#7 :: GHC.Fingerprint.Type.Fingerprint
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Fingerprint.Type.Fingerprint
+                   16781394633280494409##
+                   2520638044472077920##) -}
+ac5968e043f137094287b2dc009a6eb3
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Website.News.$trModule2
+                   Website.News.$trModule1) -}
+b8b4a00a5cb8f0803b28d609d97b1039
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Website.News"#) -}
+f8fa2ba66326a5d6b0376e4aed18947d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+6bf15cb4f5e22cea8e43b56e50f64492
+  $weta ::
+    Hakyll.Core.Rules.Internal.RulesRead
+    -> Hakyll.Core.Rules.Internal.RulesState
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          ((), Hakyll.Core.Rules.Internal.RulesState,
+           Hakyll.Core.Rules.Internal.RuleSet) #)
+  {- Arity: 3, Strictness: <L,U(U,U,U)><S,1*H><S,U>, Inline: [0],
+     Unfolding: (\ (w :: Hakyll.Core.Rules.Internal.RulesRead)
+                   (w1 :: Hakyll.Core.Rules.Internal.RulesState)
+                   (w2 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Hakyll.Core.Rules.$wcreate
+                        Website.News.newsRules45
+                        Website.News.newsRules24
+                          `cast`
+                        (Trans
+                             (<Hakyll.Core.Rules.Internal.RulesRead>_R
+                              ->_R <Hakyll.Core.Rules.Internal.RulesState>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <((), Hakyll.Core.Rules.Internal.RulesState,
+                                              Hakyll.Core.Rules.Internal.RuleSet)>_R))
+                             (Trans
+                                  (Sym (Control.Monad.Trans.RWS.Lazy.N:RWST[0]
+                                            <Hakyll.Core.Rules.Internal.RulesRead>_R
+                                            <Hakyll.Core.Rules.Internal.RuleSet>_N
+                                            <Hakyll.Core.Rules.Internal.RulesState>_N
+                                            <GHC.Types.IO>_R
+                                            <()>_N))
+                                  (Sym (Hakyll.Core.Rules.Internal.N:Rules[0]) <()>_N)))
+                        w
+                        Website.News.newsRules23
+                        Website.News.newsRules4
+                        w2 of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    (case ipv1 of wild { (,,) b1 s'' w' -> b1 },
+                     case ipv1 of wild { (,,) b1 s'' w' -> s'' },
+                     case ipv1 of wild { (,,) b1 s'' w' ->
+                     case w' of ww5 { Hakyll.Core.Rules.Internal.RuleSet ww6 ww7 ww8 ww9 ->
+                     Hakyll.Core.Rules.Internal.RuleSet
+                       (\ (p :: Hakyll.Core.Routes.RoutesRead)
+                          (id' :: Hakyll.Core.Identifier.Identifier)
+                          (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                        (ww6 `cast` (Hakyll.Core.Routes.N:Routes[0]) p id')
+                          `cast`
+                        (GHC.Types.N:IO[0]
+                             <(GHC.Base.Maybe GHC.IO.FilePath,
+                               Hakyll.Core.Routes.UsedMetadata)>_R)
+                          s)
+                         `cast`
+                       (Trans
+                            (<Hakyll.Core.Routes.RoutesRead>_R
+                             ->_R <Hakyll.Core.Identifier.Identifier>_R
+                             ->_R Sym (GHC.Types.N:IO[0]
+                                           <(GHC.Base.Maybe GHC.IO.FilePath,
+                                             Hakyll.Core.Routes.UsedMetadata)>_R))
+                            (Sym (Hakyll.Core.Routes.N:Routes[0])))
+                       (GHC.Base.++
+                          @ (Hakyll.Core.Identifier.Identifier,
+                             Hakyll.Core.Compiler.Internal.Compiler
+                               Hakyll.Core.Item.SomeItem.SomeItem)
+                          (GHC.Types.[]
+                             @ (Hakyll.Core.Identifier.Identifier,
+                                Hakyll.Core.Compiler.Internal.Compiler
+                                  Hakyll.Core.Item.SomeItem.SomeItem))
+                          (GHC.Base.++
+                             @ (Hakyll.Core.Identifier.Identifier,
+                                Hakyll.Core.Compiler.Internal.Compiler
+                                  Hakyll.Core.Item.SomeItem.SomeItem)
+                             (GHC.Types.[]
+                                @ (Hakyll.Core.Identifier.Identifier,
+                                   Hakyll.Core.Compiler.Internal.Compiler
+                                     Hakyll.Core.Item.SomeItem.SomeItem))
+                             ww7))
+                       ww8
+                       (Hakyll.Core.Identifier.Pattern.Complement
+                          (Hakyll.Core.Identifier.Pattern.And
+                             Website.News.newsRules3
+                             (Hakyll.Core.Identifier.Pattern.Complement
+                                (Hakyll.Core.Identifier.Pattern.Complement
+                                   (Hakyll.Core.Identifier.Pattern.And
+                                      Website.News.newsRules3
+                                      (Hakyll.Core.Identifier.Pattern.Complement
+                                         ww9)))))) } }) #) }) -}
+63f3e70e41bd73e29155c29753c4c55a
+  $wnewsField ::
+    GHC.Base.String
+    -> Hakyll.Core.Identifier.Pattern.Pattern
+    -> GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3, Strictness: <S,1*U><L,U><S,1*U>, Inline: [0],
+     Unfolding: (\ @ a
+                   (w :: GHC.Base.String)
+                   (w1 :: Hakyll.Core.Identifier.Pattern.Pattern)
+                   (w2 :: GHC.Base.String) ->
+                 case GHC.Base.eqString w2 w of wild {
+                   GHC.Types.False
+                   -> (Hakyll.Core.Compiler.Internal.$fAlternativeCompiler9
+                         @ Hakyll.Web.Template.Context.ContextField)
+                        `cast`
+                      (Trans
+                           (<Hakyll.Core.Compiler.Internal.CompilerRead>_R
+                            ->_R Sym (GHC.Types.N:IO[0]
+                                          <Hakyll.Core.Compiler.Internal.CompilerResult
+                                             Hakyll.Web.Template.Context.ContextField>_R))
+                           (Sym (Hakyll.Core.Compiler.Internal.N:Compiler[0]
+                                     <Hakyll.Web.Template.Context.ContextField>_R)))
+                   GHC.Types.True
+                   -> Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$cfmap
+                        @ [Hakyll.Core.Item.Item GHC.Base.String]
+                        @ Hakyll.Web.Template.Context.ContextField
+                        Website.News.allNewsField24
+                        (Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$c>>=
+                           @ [Hakyll.Core.Item.Item GHC.Base.String]
+                           @ [Hakyll.Core.Item.Item GHC.Base.String]
+                           (\ (eta :: Hakyll.Core.Compiler.Internal.CompilerRead)
+                              (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                            Hakyll.Core.Compiler.Require.loadAll2
+                              @ GHC.Base.String
+                              Data.Binary.Class.$fBinaryVersion_$s$fBinary[]
+                              Website.News.allNewsField21
+                                `cast`
+                              (Sym (Data.Typeable.Internal.N:Typeable[0]
+                                        <*>_N <GHC.Base.String>_N))
+                              w1
+                              Hakyll.Core.Compiler.Require.final
+                              eta
+                              eta1)
+                             `cast`
+                           (Trans
+                                (<Hakyll.Core.Compiler.Internal.CompilerRead>_R
+                                 ->_R Sym (GHC.Types.N:IO[0]
+                                               <Hakyll.Core.Compiler.Internal.CompilerResult
+                                                  [Hakyll.Core.Item.Item GHC.Base.String]>_R))
+                                (Sym (Hakyll.Core.Compiler.Internal.N:Compiler[0]
+                                          <[Hakyll.Core.Item.Item GHC.Base.String]>_R)))
+                           Website.News.allNewsField20) }) -}
+198eb51f5d0c80e3bbd374bfaae64776
+  allNewsField :: Hakyll.Web.Template.Context.Context a
+  {- Arity: 3,
+     Unfolding: InlineRule (0, True, True)
+                Website.News.allNewsField1
+                  `cast`
+                (forall (a :: <*>_N).
+                 Sym (Hakyll.Web.Template.Context.N:Context[0] <a>_R)) -}
+d9fe401fa834c8954256e466ac635a3a
+  allNewsField1 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item a
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3,
+     Unfolding: (\ @ a
+                   (w :: GHC.Base.String)
+                   (w1 :: [GHC.Base.String])
+                   (w2 :: Hakyll.Core.Item.Item a) ->
+                 Website.News.$wnewsField
+                   @ a
+                   Website.News.allNewsField7
+                   Website.News.allNewsPat
+                   w) -}
+cf44fa8865efcb1b833cb670e097639d
+  allNewsField10 :: Hakyll.Core.Identifier.Pattern.Pattern
+  {- Strictness: m4,
+     Unfolding: (Hakyll.Core.Identifier.Pattern.Glob
+                   Website.News.allNewsField11) -}
+cd6cbb3451fd5cdea8910a92f05b7b8a
+  allNewsField11 :: [Hakyll.Core.Identifier.Pattern.GlobComponent]
+  {- Unfolding: (case Hakyll.Core.Identifier.Pattern.$wparse'
+                        Website.News.allNewsField12 of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.:
+                   @ Hakyll.Core.Identifier.Pattern.GlobComponent
+                   ww1
+                   ww2 }) -}
+33afc451406e7e80014cc923106392fb
+  allNewsField12 :: GHC.IO.FilePath
+  {- Unfolding: (System.FilePath.Posix.combine
+                   Website.News.allNewsField7
+                   Website.News.allNewsField13) -}
+8015d3c73221563164dade718f0aae04
+  allNewsField13 :: GHC.IO.FilePath
+  {- Unfolding: (System.FilePath.Posix.combine
+                   Website.News.allNewsField14
+                   Website.News.allNewsField5) -}
+5cd3a343204519055adff7bb404beb43
+  allNewsField14 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "events"#) -}
+ecd2427b70307a5f663fbf6bb35c25dd
+  allNewsField15 :: Hakyll.Core.Identifier.Pattern.Pattern
+  {- Strictness: m4,
+     Unfolding: (Hakyll.Core.Identifier.Pattern.Glob
+                   Website.News.allNewsField16) -}
+1feaf1350254531f3169090619c27b0e
+  allNewsField16 :: [Hakyll.Core.Identifier.Pattern.GlobComponent]
+  {- Unfolding: (case Hakyll.Core.Identifier.Pattern.$wparse'
+                        Website.News.allNewsField17 of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.:
+                   @ Hakyll.Core.Identifier.Pattern.GlobComponent
+                   ww1
+                   ww2 }) -}
+5316d19065cc6b5829798bdbf48827c9
+  allNewsField17 :: GHC.IO.FilePath
+  {- Unfolding: (System.FilePath.Posix.combine
+                   Website.News.allNewsField7
+                   Website.News.allNewsField18) -}
+71cef01ead4a60d3080df61fcf67fe55
+  allNewsField18 :: GHC.IO.FilePath
+  {- Unfolding: (System.FilePath.Posix.combine
+                   Website.News.allNewsField19
+                   Website.News.allNewsField5) -}
+ff3ecd2d34bcf5af0a5ba7b4493bf753
+  allNewsField19 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "jobs"#) -}
+e0d15f378b790c8307491a31334084b8
+  allNewsField2 :: [Hakyll.Core.Identifier.Pattern.GlobComponent]
+  {- Unfolding: (case Hakyll.Core.Identifier.Pattern.$wparse'
+                        Website.News.allNewsField3 of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.:
+                   @ Hakyll.Core.Identifier.Pattern.GlobComponent
+                   ww1
+                   ww2 }) -}
+3ae10b5674bd31cad124b85bd43314fb
+  allNewsField20 ::
+    [Hakyll.Core.Item.Item GHC.Base.String]
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         [Hakyll.Core.Item.Item GHC.Base.String]
+  {- Arity: 1,
+     Unfolding: (Hakyll.Web.Template.List.recentFirst
+                   @ Hakyll.Core.Compiler.Internal.Compiler
+                   @ GHC.Base.String
+                   Hakyll.Core.Compiler.Internal.$fMonadMetadataCompiler) -}
+08cf9171e2106d461dee9230983bfbf7
+  allNewsField21 ::
+    GHC.Prim.Proxy# GHC.Base.String -> Data.Typeable.Internal.TypeRep
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (wild :: GHC.Prim.Proxy# GHC.Base.String) ->
+                 Website.News.allNewsField22) -}
+b37cd1795f1a6a1108e9e2c7daabb846
+  allNewsField22 :: Data.Typeable.Internal.TypeRep
+  {- Unfolding: (case Website.News.$stypeRep#2 of wild { Data.Typeable.Internal.TypeRep dt dt1 tc ks trs ->
+                 let {
+                   types :: [Data.Typeable.Internal.TypeRep]
+                   = GHC.Base.++
+                       @ Data.Typeable.Internal.TypeRep
+                       trs
+                       Website.News.allNewsField23
+                 } in
+                 case Data.Typeable.Internal.typeRepFingerprints
+                        ks
+                        types of kt_fps { DEFAULT ->
+                 case GHC.Fingerprint.fingerprintFingerprints
+                        (GHC.Types.:
+                           @ GHC.Fingerprint.Type.Fingerprint
+                           (Data.Typeable.Internal.tyConFingerprint tc)
+                           kt_fps) of dt2 { GHC.Fingerprint.Type.Fingerprint dt3 dt4 ->
+                 Data.Typeable.Internal.TypeRep dt3 dt4 tc ks types } } }) -}
+8c91e4a2a3c3a497e8dd241d38df65e3
+  allNewsField23 :: [Data.Typeable.Internal.TypeRep]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Typeable.Internal.TypeRep
+                   Website.News.$stypeRep#6
+                   (GHC.Types.[] @ Data.Typeable.Internal.TypeRep)) -}
+300e5011dc20b14e8773bd2c2954657b
+  allNewsField24 ::
+    [Hakyll.Core.Item.Item GHC.Base.String]
+    -> Hakyll.Web.Template.Context.ContextField
+  {- Arity: 1,
+     Unfolding: (Hakyll.Web.Template.Context.ListField
+                   @ GHC.Base.String
+                   Website.News.allNewsField25
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))) -}
+17bc2d1e4cc732cd9c7209c58d6523b6
+  allNewsField25 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item [GHC.Types.Char]
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3,
+     Unfolding: (Hakyll.Web.Template.Context.$fMonoidContext3
+                   @ [GHC.Types.Char]
+                   Website.News.allNewsField36
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <GHC.Base.String>_R))
+                   Website.News.allNewsField26
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))) -}
+3894e6e02f5357537bcfa5f1f7644651
+  allNewsField26 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item [GHC.Types.Char]
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3,
+     Unfolding: (Hakyll.Web.Template.Context.$fMonoidContext3
+                   @ [GHC.Types.Char]
+                   Website.News.allNewsField35
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <GHC.Base.String>_R))
+                   Website.News.allNewsField27
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))) -}
+bd1ac7e09d272ddff8c368cda0bdd7d6
+  allNewsField27 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item [GHC.Types.Char]
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3,
+     Unfolding: (Hakyll.Web.Template.Context.$fMonoidContext3
+                   @ [GHC.Types.Char]
+                   Website.News.allNewsField34
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <GHC.Base.String>_R))
+                   Website.News.allNewsField28
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))) -}
+c4a7d982f304ea7721624b19b9f4591b
+  allNewsField28 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item [GHC.Types.Char]
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3,
+     Unfolding: (Hakyll.Web.Template.Context.$fMonoidContext3
+                   @ [GHC.Types.Char]
+                   Website.News.allNewsField33
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <GHC.Base.String>_R))
+                   Website.News.allNewsField29
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))) -}
+1d8df4ed220af95ee38bd4e1aa8d9f82
+  allNewsField29 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item [GHC.Types.Char]
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3,
+     Unfolding: (Hakyll.Web.Template.Context.$fMonoidContext3
+                   @ [GHC.Types.Char]
+                   Website.News.allNewsField32
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <GHC.Base.String>_R))
+                   Website.News.allNewsField30
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))) -}
+a9bb8e8325efc53643eaa09b2a24feea
+  allNewsField3 :: GHC.IO.FilePath
+  {- Unfolding: (System.FilePath.Posix.combine
+                   Website.News.allNewsField7
+                   Website.News.allNewsField4) -}
+62ba7ae7b9f76e42d1170883d1b96b37
+  allNewsField30 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item [GHC.Types.Char]
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3,
+     Unfolding: (Hakyll.Web.Template.Context.$fMonoidContext3
+                   @ [GHC.Types.Char]
+                   Website.News.allNewsField31
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <GHC.Base.String>_R))
+                   Hakyll.Web.Template.Context.defaultContext1
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))) -}
+3e75fcdb69eb1e2d63f96b45576636a4
+  allNewsField31 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3, Strictness: <S,1*U><L,A><L,U(U(U,U),A)>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (w2 :: GHC.Base.String)
+                   (w3 :: [GHC.Base.String])
+                   (w4 :: Hakyll.Core.Item.Item GHC.Base.String) ->
+                 Hakyll.Web.Template.Context.$wteaserFieldWithSeparator
+                   Hakyll.Web.Template.Context.teaserField2
+                   Website.News.allNewsField_w
+                   Website.News.allNewsField_w1
+                   w2
+                   w4) -}
+d82e3675356a9de81906b2041e7436cb
+  allNewsField32 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3, Strictness: <S,1*U><L,A><L,1*U(1*U(U,U),A)>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (w2 :: GHC.Base.String)
+                   (w3 :: [GHC.Base.String])
+                   (w4 :: Hakyll.Core.Item.Item GHC.Base.String) ->
+                 Hakyll.Web.Template.Context.$wdateFieldWith
+                   @ GHC.Base.String
+                   Data.Time.Format.Locale.defaultTimeLocale
+                   Website.News.allNewsField_w3
+                   Website.News.allNewsField_w2
+                   w2
+                   w4) -}
+7dda435a2538337e7bb62d15f6a434e4
+  allNewsField33 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3, Strictness: <S,1*U><L,A><L,1*U(1*U(U,U),A)>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (w2 :: GHC.Base.String)
+                   (w3 :: [GHC.Base.String])
+                   (w4 :: Hakyll.Core.Item.Item GHC.Base.String) ->
+                 Hakyll.Web.Template.Context.$wdateFieldWith
+                   @ GHC.Base.String
+                   Data.Time.Format.Locale.defaultTimeLocale
+                   Website.News.allNewsField_w5
+                   Website.News.allNewsField_w4
+                   w2
+                   w4) -}
+51ca162ab815e20c7fc28817b78d5ded
+  allNewsField34 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3, Strictness: <S,1*U><L,A><L,1*U(1*U(U,U),A)>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (w2 :: GHC.Base.String)
+                   (w3 :: [GHC.Base.String])
+                   (w4 :: Hakyll.Core.Item.Item GHC.Base.String) ->
+                 Hakyll.Web.Template.Context.$wdateFieldWith
+                   @ GHC.Base.String
+                   Data.Time.Format.Locale.defaultTimeLocale
+                   Website.News.allNewsField_w7
+                   Website.News.allNewsField_w6
+                   w2
+                   w4) -}
+566d8c92254eed71f881ca8a505db137
+  allNewsField35 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3, Strictness: <S,1*U><L,A><L,1*U(1*U(U,U),A)>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (w2 :: GHC.Base.String)
+                   (w3 :: [GHC.Base.String])
+                   (w4 :: Hakyll.Core.Item.Item GHC.Base.String) ->
+                 Hakyll.Web.Template.Context.$wdateFieldWith
+                   @ GHC.Base.String
+                   Data.Time.Format.Locale.defaultTimeLocale
+                   Website.News.allNewsField_w9
+                   Website.News.allNewsField_w8
+                   w2
+                   w4) -}
+0278e549e5db811bb2a058b4d779e1f8
+  allNewsField36 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3, Strictness: <S,1*U><L,A><L,1*U(1*U(U,U),A)>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (w2 :: GHC.Base.String)
+                   (w3 :: [GHC.Base.String])
+                   (w4 :: Hakyll.Core.Item.Item GHC.Base.String) ->
+                 Hakyll.Web.Template.Context.$wdateFieldWith
+                   @ GHC.Base.String
+                   Data.Time.Format.Locale.defaultTimeLocale
+                   Website.News.allNewsField_w11
+                   Website.News.allNewsField_w10
+                   w2
+                   w4) -}
+694946f2c431e5d8c25151e5030be4e6
+  allNewsField4 :: GHC.IO.FilePath
+  {- Unfolding: (System.FilePath.Posix.combine
+                   Website.News.allNewsField6
+                   Website.News.allNewsField5) -}
+7f0af52efcf83ed91e286611cdb986fa
+  allNewsField5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "*"#) -}
+3abdd64d06604c23496e39575103394a
+  allNewsField6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "posts"#) -}
+db8d075b78fac4b41b4e715f72661f3c
+  allNewsField7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "news"#) -}
+0828de0e9eba984505e6c5dd2e8adcc7
+  allNewsField8 :: [Hakyll.Core.Identifier.Pattern.Pattern]
+  {- Unfolding: (GHC.Types.:
+                   @ Hakyll.Core.Identifier.Pattern.Pattern
+                   Website.News.allNewsField15
+                   Website.News.allNewsField9) -}
+ffb2803802cde9c19c2bbe26ecf466c8
+  allNewsField9 :: [Hakyll.Core.Identifier.Pattern.Pattern]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Hakyll.Core.Identifier.Pattern.Pattern
+                   Website.News.allNewsField10
+                   (GHC.Types.[] @ Hakyll.Core.Identifier.Pattern.Pattern)) -}
+af8dad8c2daf67742b0ce1175007b452
+  allNewsField_go ::
+    [Hakyll.Core.Identifier.Pattern.Pattern]
+    -> Hakyll.Core.Identifier.Pattern.Pattern
+    -> Hakyll.Core.Identifier.Pattern.Pattern
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U> -}
+637ff777dcf4dfa39222c63ed719cdf7
+  allNewsField_w :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "teaser"#) -}
+7b6327541b26cab28851102343bf47d5
+  allNewsField_w1 :: Hakyll.Core.Compiler.Internal.Snapshot
+  {- Unfolding: (GHC.CString.unpackCString# "content"#) -}
+d9040234f8046507112fc0778590e500
+  allNewsField_w10 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "%B %e, %Y"#) -}
+65ed984bb4f0edb6c47e750242220965
+  allNewsField_w11 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "date"#) -}
+37e883dea9278a4e8aff606c0698a05c
+  allNewsField_w2 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "%e"#) -}
+4e7ee0d8e0541fda1c3d3613a8efb3b8
+  allNewsField_w3 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "dayofmonth"#) -}
+dcd9450b5282eac6460f1b8d60996603
+  allNewsField_w4 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "%a"#) -}
+e3cebabcca2b4c09a504b49625126eb1
+  allNewsField_w5 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "day"#) -}
+43eee3b6faa9aee44209e315d0964573
+  allNewsField_w6 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "%Y"#) -}
+5601f5c2fd3ebe6d545ddfc418d7f2af
+  allNewsField_w7 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "year"#) -}
+7a76497ce9d28c515e6b56ecee5c1f80
+  allNewsField_w8 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "%b"#) -}
+4990a10c651f48d7070257c989e8014f
+  allNewsField_w9 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "month"#) -}
+a31898a3422271825c2f70545d3c13d1
+  allNewsField_x :: Hakyll.Core.Identifier.Pattern.Pattern
+  {- Strictness: m4,
+     Unfolding: (Hakyll.Core.Identifier.Pattern.Glob
+                   Website.News.allNewsField2) -}
+ddec4b225d3f4c3ad97d57e7b229afec
+  allNewsPat :: Hakyll.Core.Identifier.Pattern.Pattern
+  {- Unfolding: (Website.News.allNewsField_go
+                   Website.News.allNewsField8
+                   Website.News.allNewsField_x) -}
+0d2b6bd2861b652651d15bc466ad56f9
+  newsCxt :: Hakyll.Web.Template.Context.Context GHC.Base.String
+  {- Arity: 3,
+     Unfolding: InlineRule (0, True, True)
+                Website.News.allNewsField25
+                  `cast`
+                (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                          <[GHC.Types.Char]>_R)) -}
+ff7b524218960bc71e120c57e8686933
+  newsField ::
+    GHC.Base.String
+    -> Hakyll.Core.Identifier.Pattern.Pattern
+    -> Hakyll.Web.Template.Context.Context a
+  {- Arity: 5, Strictness: <S,1*U><L,U><S,1*U><L,A><L,A>,
+     Unfolding: InlineRule (0, True, True)
+                Website.News.newsField1
+                  `cast`
+                (forall (a :: <*>_N).
+                 <GHC.Base.String>_R
+                 ->_R <Hakyll.Core.Identifier.Pattern.Pattern>_R
+                 ->_R Sym (Hakyll.Web.Template.Context.N:Context[0] <a>_R)) -}
+30a9d8f8fc3798f1020eb3455ed1e8aa
+  newsField1 ::
+    GHC.Base.String
+    -> Hakyll.Core.Identifier.Pattern.Pattern
+    -> GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item a
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 5, Strictness: <S,1*U><L,U><S,1*U><L,A><L,A>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (5, True, True)
+                (\ @ a
+                   (w :: GHC.Base.String)
+                   (w1 :: Hakyll.Core.Identifier.Pattern.Pattern)
+                   (w2 :: GHC.Base.String)
+                   (w3 :: [GHC.Base.String])
+                   (w4 :: Hakyll.Core.Item.Item a) ->
+                 Website.News.$wnewsField @ a w w1 w2) -}
+4b7f379f316249321fc24f06eb2b768d
+  newsRules :: Hakyll.Core.Rules.Internal.Rules ()
+  {- Arity: 3, Strictness: <L,U(U,U,U)><S(LS),1*U(U,1*U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Website.News.newsRules1
+                  `cast`
+                (Trans
+                     (<Hakyll.Core.Rules.Internal.RulesRead>_R
+                      ->_R <Hakyll.Core.Rules.Internal.RulesState>_R
+                      ->_R Sym (GHC.Types.N:IO[0]
+                                    <((), Hakyll.Core.Rules.Internal.RulesState,
+                                      Hakyll.Core.Rules.Internal.RuleSet)>_R))
+                     (Trans
+                          (Sym (Control.Monad.Trans.RWS.Lazy.N:RWST[0]
+                                    <Hakyll.Core.Rules.Internal.RulesRead>_R
+                                    <Hakyll.Core.Rules.Internal.RuleSet>_N
+                                    <Hakyll.Core.Rules.Internal.RulesState>_N
+                                    <GHC.Types.IO>_R
+                                    <()>_N))
+                          (Sym (Hakyll.Core.Rules.Internal.N:Rules[0]) <()>_N))) -}
+848c005c9c32ad4567ba3ac60009dcdd
+  newsRules1 ::
+    Hakyll.Core.Rules.Internal.RulesRead
+    -> Hakyll.Core.Rules.Internal.RulesState
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          ((), Hakyll.Core.Rules.Internal.RulesState,
+           Hakyll.Core.Rules.Internal.RuleSet) #)
+  {- Arity: 3, Strictness: <L,U(U,U,U)><S(LS),1*U(U,1*U)><S,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (eta1 :: Hakyll.Core.Rules.Internal.RulesRead)
+                   (eta2 :: Hakyll.Core.Rules.Internal.RulesState)
+                   (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case eta2 of ww { Hakyll.Core.Rules.Internal.RulesState ww1 ww2 ->
+                 Hakyll.Core.Rules.$wmatchInternal
+                   Website.News.allNewsPat
+                   (Hakyll.Core.Rules.Internal.$fMonadMetadataRules3
+                      Website.News.allNewsPat)
+                     `cast`
+                   (Trans
+                        (<Hakyll.Core.Rules.Internal.RulesRead>_R
+                         ->_R <Hakyll.Core.Rules.Internal.RulesState>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <([Hakyll.Core.Identifier.Identifier],
+                                         Hakyll.Core.Rules.Internal.RulesState,
+                                         Hakyll.Core.Rules.Internal.RuleSet)>_R))
+                        (Trans
+                             (Sym (Control.Monad.Trans.RWS.Lazy.N:RWST[0]
+                                       <Hakyll.Core.Rules.Internal.RulesRead>_R
+                                       <Hakyll.Core.Rules.Internal.RuleSet>_N
+                                       <Hakyll.Core.Rules.Internal.RulesState>_N
+                                       <GHC.Types.IO>_R
+                                       <[Hakyll.Core.Identifier.Identifier]>_N))
+                             (Sym (Hakyll.Core.Rules.Internal.N:Rules[0]) <[Hakyll.Core.Identifier.Identifier]>_N)))
+                   Website.News.newsRules2
+                     `cast`
+                   (Trans
+                        (<Hakyll.Core.Rules.Internal.RulesRead>_R
+                         ->_R <Hakyll.Core.Rules.Internal.RulesState>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <((), Hakyll.Core.Rules.Internal.RulesState,
+                                         Hakyll.Core.Rules.Internal.RuleSet)>_R))
+                        (Trans
+                             (Sym (Control.Monad.Trans.RWS.Lazy.N:RWST[0]
+                                       <Hakyll.Core.Rules.Internal.RulesRead>_R
+                                       <Hakyll.Core.Rules.Internal.RuleSet>_N
+                                       <Hakyll.Core.Rules.Internal.RulesState>_N
+                                       <GHC.Types.IO>_R
+                                       <()>_N))
+                             (Sym (Hakyll.Core.Rules.Internal.N:Rules[0]) <()>_N)))
+                   eta1
+                   ww1
+                   ww2
+                   eta3 }) -}
+b6eef2464e8fb37a1a49c421c215fb0a
+  newsRules10 :: Hakyll.Core.Identifier.Identifier
+  {- Strictness: m,
+     Unfolding: (Hakyll.Core.Identifier.Identifier
+                   (GHC.Base.Nothing @ GHC.Base.String)
+                   Website.News.newsRules11) -}
+7e999c99298506cd438fa7ed8da4ab22
+  newsRules11 :: GHC.Base.String
+  {- Unfolding: (case Hakyll.Core.Identifier.fromFilePath_go
+                        Website.News.newsRules12 of wild {
+                   [] -> GHC.Types.[] @ GHC.Types.Char
+                   : x xs1
+                   -> Data.OldList.intercalate_$spoly_go
+                        @ GHC.Types.Char
+                        x
+                        (Data.OldList.prependToAll
+                           @ [GHC.Types.Char]
+                           Hakyll.Core.Identifier.fromFilePath1
+                           xs1) }) -}
+e7ad26ba1b6395576af56e1f21c13556
+  newsRules12 :: [GHC.IO.FilePath]
+  {- Unfolding: (System.FilePath.Posix.splitPath
+                   Website.News.newsRules13) -}
+1596442d64befd8ea7c0c96488101172
+  newsRules13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "templates/wrapper.html"#) -}
+366d60bb7b69bf9891550862b9efad5a
+  newsRules14 :: Hakyll.Core.Identifier.Identifier
+  {- Strictness: m,
+     Unfolding: (Hakyll.Core.Identifier.Identifier
+                   (GHC.Base.Nothing @ GHC.Base.String)
+                   Website.News.newsRules15) -}
+9dac66855cd8aaf0aac1abcb50e0844b
+  newsRules15 :: GHC.Base.String
+  {- Unfolding: (case Hakyll.Core.Identifier.fromFilePath_go
+                        Website.News.newsRules16 of wild {
+                   [] -> GHC.Types.[] @ GHC.Types.Char
+                   : x xs1
+                   -> Data.OldList.intercalate_$spoly_go
+                        @ GHC.Types.Char
+                        x
+                        (Data.OldList.prependToAll
+                           @ [GHC.Types.Char]
+                           Hakyll.Core.Identifier.fromFilePath1
+                           xs1) }) -}
+239917c0d3092156b49a6fe22ef4a2ac
+  newsRules16 :: [GHC.IO.FilePath]
+  {- Unfolding: (System.FilePath.Posix.splitPath
+                   Website.News.newsRules17) -}
+915444b43974d9c3c11084be54fe9525
+  newsRules17 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "templates/default.html"#) -}
+7a3ec37a96d1fbdfc511aee02e0ed1f2
+  newsRules18 :: Hakyll.Core.Identifier.Identifier
+  {- Strictness: m,
+     Unfolding: (Hakyll.Core.Identifier.Identifier
+                   (GHC.Base.Nothing @ GHC.Base.String)
+                   Website.News.newsRules19) -}
+8ba34122d37cb223481640bf2d990598
+  newsRules19 :: GHC.Base.String
+  {- Unfolding: (case Hakyll.Core.Identifier.fromFilePath_go
+                        Website.News.newsRules20 of wild {
+                   [] -> GHC.Types.[] @ GHC.Types.Char
+                   : x xs1
+                   -> Data.OldList.intercalate_$spoly_go
+                        @ GHC.Types.Char
+                        x
+                        (Data.OldList.prependToAll
+                           @ [GHC.Types.Char]
+                           Hakyll.Core.Identifier.fromFilePath1
+                           xs1) }) -}
+74722689cd4b4fcfbfbbc03db4b69017
+  newsRules2 ::
+    Hakyll.Core.Rules.Internal.RulesRead
+    -> Hakyll.Core.Rules.Internal.RulesState
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          ((), Hakyll.Core.Rules.Internal.RulesState,
+           Hakyll.Core.Rules.Internal.RuleSet) #)
+  {- Arity: 3, Strictness: <L,U(U,U,U)><S,1*H><S,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: Hakyll.Core.Rules.Internal.RulesRead)
+                   (w1 :: Hakyll.Core.Rules.Internal.RulesState)
+                   (w2 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case w1 of w3 { Hakyll.Core.Rules.Internal.RulesState ipv ipv1 ->
+                 Website.News.$weta w w3 w2 }) -}
+c0e3e5b38f94f3019706dba722d1e008
+  newsRules20 :: [GHC.IO.FilePath]
+  {- Unfolding: (System.FilePath.Posix.splitPath
+                   Website.News.newsRules21) -}
+ee468e7f2cfdc11eafc8613bae02980a
+  newsRules21 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "templates/post.html"#) -}
+91b11c298a4e3a29d871046384151f18
+  newsRules22 ::
+    Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Item.SomeItem.SomeItem
+  {- Arity: 1,
+     Unfolding: (Hakyll.Core.Item.SomeItem.SomeItem
+                   @ GHC.Base.String
+                   Data.Binary.Class.$fBinaryVersion_$s$fBinary[]
+                   Website.News.allNewsField21
+                     `cast`
+                   (Sym (Data.Typeable.Internal.N:Typeable[0]
+                             <*>_N <GHC.Base.String>_N))
+                   Hakyll.Core.Writable.$fWritable[]2
+                     `cast`
+                   (Trans
+                        (<GHC.IO.FilePath>_R
+                         ->_R <Hakyll.Core.Item.Item GHC.Base.String>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                        (Sym (Hakyll.Core.Writable.N:Writable[0]
+                                  <[GHC.Types.Char]>_N)))) -}
+cb74b13a6dcd3497bd67d9881c5fbcff
+  newsRules23 :: GHC.Base.Maybe Hakyll.Core.Routes.Routes
+  {- Unfolding: (GHC.Base.Just
+                   @ Hakyll.Core.Routes.Routes
+                   Website.Utils.cleanRoute1
+                     `cast`
+                   (Trans
+                        (<Hakyll.Core.Routes.RoutesRead>_R
+                         ->_R <Hakyll.Core.Identifier.Identifier>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <(GHC.Base.Maybe GHC.IO.FilePath,
+                                         Hakyll.Core.Routes.UsedMetadata)>_R))
+                        (Sym (Hakyll.Core.Routes.N:Routes[0])))) -}
+1bfa4ceada350c1d502c155b68aca1d8
+  newsRules24 ::
+    Hakyll.Core.Rules.Internal.RulesRead
+    -> Hakyll.Core.Rules.Internal.RulesState
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          ((), Hakyll.Core.Rules.Internal.RulesState,
+           Hakyll.Core.Rules.Internal.RuleSet) #)
+  {- Arity: 3, Strictness: <L,A><L,1*H><S,U>, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: Hakyll.Core.Rules.Internal.RulesRead)
+                   (w1 :: Hakyll.Core.Rules.Internal.RulesState)
+                   (w2 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 (# w2,
+                    (GHC.Tuple.(),
+                     case w1 of wild { Hakyll.Core.Rules.Internal.RulesState ds ds1 ->
+                     Website.News.newsRules30 },
+                     Website.News.newsRules25) #)) -}
+17a591ba91e4a8fada9f88f16d0d0f6e
+  newsRules25 :: Hakyll.Core.Rules.Internal.RuleSet
+  {- Unfolding: (Hakyll.Core.Rules.Internal.RuleSet
+                   Website.News.newsRules29
+                     `cast`
+                   (Trans
+                        (<Hakyll.Core.Routes.RoutesRead>_R
+                         ->_R <Hakyll.Core.Identifier.Identifier>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <(GHC.Base.Maybe GHC.IO.FilePath,
+                                         Hakyll.Core.Routes.UsedMetadata)>_R))
+                        (Sym (Hakyll.Core.Routes.N:Routes[0])))
+                   Website.News.newsRules28
+                   (Data.Set.Base.Tip @ Hakyll.Core.Identifier.Identifier)
+                   Website.News.newsRules26) -}
+38125ca17ab1b0741d2a0c9144797bb1
+  newsRules26 :: Hakyll.Core.Identifier.Pattern.Pattern
+  {- HasNoCafRefs,
+     Unfolding: (Hakyll.Core.Identifier.Pattern.Complement
+                   Website.News.newsRules27) -}
+7e2b41008dda1a4dab39efdb5bd9ce7a
+  newsRules27 :: Hakyll.Core.Identifier.Pattern.Pattern
+  {- HasNoCafRefs,
+     Unfolding: (Hakyll.Core.Identifier.Pattern.And
+                   Website.News.newsRules3
+                   Website.News.newsRules3) -}
+3b4d2eef484fe351dfa32b3767a37b29
+  newsRules28 ::
+    [(Hakyll.Core.Identifier.Identifier,
+      Hakyll.Core.Compiler.Internal.Compiler
+        Hakyll.Core.Item.SomeItem.SomeItem)]
+  {- Unfolding: (GHC.Base.++
+                   @ (Hakyll.Core.Identifier.Identifier,
+                      Hakyll.Core.Compiler.Internal.Compiler
+                        Hakyll.Core.Item.SomeItem.SomeItem)
+                   (GHC.Types.[]
+                      @ (Hakyll.Core.Identifier.Identifier,
+                         Hakyll.Core.Compiler.Internal.Compiler
+                           Hakyll.Core.Item.SomeItem.SomeItem))
+                   (GHC.Types.[]
+                      @ (Hakyll.Core.Identifier.Identifier,
+                         Hakyll.Core.Compiler.Internal.Compiler
+                           Hakyll.Core.Item.SomeItem.SomeItem))) -}
+2dde1f1d2097def232211bc274b6e05b
+  newsRules29 ::
+    Hakyll.Core.Routes.RoutesRead
+    -> Hakyll.Core.Identifier.Identifier
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (GHC.Base.Maybe GHC.IO.FilePath, GHC.Types.Bool) #)
+  {- Arity: 3, HasNoCafRefs,
+     Unfolding: (\ (p :: Hakyll.Core.Routes.RoutesRead)
+                   (id' :: Hakyll.Core.Identifier.Identifier)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 (# s, Hakyll.Core.Routes.$fMonoidRoutes5 #)) -}
+d2f26f9647868188b56be2ac3c192cac
+  newsRules3 :: Hakyll.Core.Identifier.Pattern.Pattern
+  {- HasNoCafRefs,
+     Unfolding: (Hakyll.Core.Identifier.Pattern.Complement
+                   Hakyll.Core.Identifier.Pattern.Everything) -}
+881622c9aa7aa9f933fb574bbefa5267
+  newsRules30 :: Hakyll.Core.Rules.Internal.RulesState
+  {- Unfolding: (Hakyll.Core.Rules.Internal.RulesState
+                   Website.News.newsRules23
+                   Website.News.newsRules31) -}
+2b31eb69a6ebc286e634c07f3ed83bb4
+  newsRules31 ::
+    GHC.Base.Maybe
+      (Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Core.Item.SomeItem.SomeItem)
+  {- Unfolding: (GHC.Base.Just
+                   @ (Hakyll.Core.Compiler.Internal.Compiler
+                        Hakyll.Core.Item.SomeItem.SomeItem)
+                   Website.News.newsRules32) -}
+d5d02879b0a498a259f4076899bcaa6c
+  newsRules32 ::
+    Hakyll.Core.Compiler.Internal.Compiler
+      Hakyll.Core.Item.SomeItem.SomeItem
+  {- Arity: 2,
+     Unfolding: (Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$cfmap
+                   @ (Hakyll.Core.Item.Item GHC.Base.String)
+                   @ Hakyll.Core.Item.SomeItem.SomeItem
+                   Website.News.newsRules22
+                   Website.News.newsRules_compiler1) -}
+28a6d05cf8196f2b111652e7cd6b1083
+  newsRules33 ::
+    Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         (Hakyll.Core.Item.Item GHC.Base.String)
+  {- Arity: 1, Strictness: <L,U(U(U,U),U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: Hakyll.Core.Item.Item GHC.Base.String) ->
+                 Website.Utils.postProcessTemplates
+                   Website.News.newsRules34
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))
+                   Website.Utils.pandocPage2
+                   eta) -}
+5dd010da0dfdc7df18d1c4bae42774f4
+  newsRules34 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item [GHC.Types.Char]
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3,
+     Unfolding: (Hakyll.Web.Template.Context.$fMonoidContext3
+                   @ [GHC.Types.Char]
+                   Website.News.newsRules37
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <GHC.Base.String>_R))
+                   Website.News.newsRules35
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))) -}
+5fe7ea533868ece4b5125b7ea1ffa7ef
+  newsRules35 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item [GHC.Types.Char]
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3,
+     Unfolding: (Hakyll.Web.Template.Context.$fMonoidContext3
+                   @ [GHC.Types.Char]
+                   Website.News.newsRules36
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <GHC.Base.String>_R))
+                   Hakyll.Web.Template.Context.defaultContext1
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))) -}
+3c0fc6949ffd43646a3fe220118f81ad
+  newsRules36 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3,
+     Unfolding: (\ (w :: GHC.Base.String)
+                   (w1 :: [GHC.Base.String])
+                   (w2 :: Hakyll.Core.Item.Item GHC.Base.String) ->
+                 Website.News.$wnewsField
+                   @ GHC.Base.String
+                   Website.News.allNewsField7
+                   Website.News.allNewsPat
+                   w) -}
+c6593b7937394f50036d990cfb32bef9
+  newsRules37 ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Web.Template.Context.ContextField
+  {- Arity: 3, Strictness: <S,1*U><L,A><L,A>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (k :: GHC.Base.String)
+                   (ds :: [GHC.Base.String])
+                   (i :: Hakyll.Core.Item.Item GHC.Base.String) ->
+                 case GHC.Base.eqString k Website.News.newsRules_key of wild {
+                   GHC.Types.False
+                   -> (Hakyll.Core.Compiler.Internal.$fAlternativeCompiler9
+                         @ Hakyll.Web.Template.Context.ContextField)
+                        `cast`
+                      (Trans
+                           (<Hakyll.Core.Compiler.Internal.CompilerRead>_R
+                            ->_R Sym (GHC.Types.N:IO[0]
+                                          <Hakyll.Core.Compiler.Internal.CompilerResult
+                                             Hakyll.Web.Template.Context.ContextField>_R))
+                           (Sym (Hakyll.Core.Compiler.Internal.N:Compiler[0]
+                                     <Hakyll.Web.Template.Context.ContextField>_R)))
+                   GHC.Types.True
+                   -> Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$cfmap
+                        @ GHC.Base.String
+                        @ Hakyll.Web.Template.Context.ContextField
+                        Hakyll.Web.Template.Context.StringField
+                        (\ (eta1 :: Hakyll.Core.Compiler.Internal.CompilerRead)
+                           (eta2 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                         (# eta2,
+                            Hakyll.Core.Compiler.Internal.CompilerDone
+                              @ GHC.Base.String
+                              Website.News.newsRules_eta
+                              Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$cmempty #))
+                          `cast`
+                        (Trans
+                             (<Hakyll.Core.Compiler.Internal.CompilerRead>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <Hakyll.Core.Compiler.Internal.CompilerResult
+                                               GHC.Base.String>_R))
+                             (Sym (Hakyll.Core.Compiler.Internal.N:Compiler[0]
+                                       <GHC.Base.String>_R))) }) -}
+4532514f3e596f4dfdcb87ee167de1aa
+  newsRules38 ::
+    Hakyll.Core.Compiler.Internal.Compiler
+      (Hakyll.Core.Item.Item GHC.Base.String)
+  {- Arity: 2,
+     Unfolding: (Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$c>>=
+                   @ (Hakyll.Core.Item.Item GHC.Base.String)
+                   @ (Hakyll.Core.Item.Item GHC.Base.String)
+                   Website.News.newsRules44
+                     `cast`
+                   (Trans
+                        (<Hakyll.Core.Compiler.Internal.CompilerRead>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Hakyll.Core.Compiler.Internal.CompilerResult
+                                          (Hakyll.Core.Item.Item GHC.Base.String)>_R))
+                        (Sym (Hakyll.Core.Compiler.Internal.N:Compiler[0]
+                                  <Hakyll.Core.Item.Item GHC.Base.String>_R)))
+                   Website.News.newsRules39) -}
+e5a4347ecb92bb04844087849df50210
+  newsRules39 ::
+    Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         (Hakyll.Core.Item.Item GHC.Base.String)
+  {- Arity: 1,
+     Unfolding: (Hakyll.Web.Template.Internal.loadAndApplyTemplate
+                   @ GHC.Base.String
+                   Website.News.newsRules40
+                   Website.News.newsRules34
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))) -}
+ff3321ec60738a7de15ab6f4ccf9792d
+  newsRules4 ::
+    GHC.Base.Maybe
+      (Hakyll.Core.Compiler.Internal.Compiler
+         Hakyll.Core.Item.SomeItem.SomeItem)
+  {- Unfolding: (GHC.Base.Just
+                   @ (Hakyll.Core.Compiler.Internal.Compiler
+                        Hakyll.Core.Item.SomeItem.SomeItem)
+                   Website.News.newsRules5) -}
+e906fbef428dc42ae3d758da4e894a25
+  newsRules40 :: Hakyll.Core.Identifier.Identifier
+  {- Strictness: m,
+     Unfolding: (Hakyll.Core.Identifier.Identifier
+                   (GHC.Base.Nothing @ GHC.Base.String)
+                   Website.News.newsRules41) -}
+f4f4aef4f9bce34f754dec004d0d6c6c
+  newsRules41 :: GHC.Base.String
+  {- Unfolding: (case Hakyll.Core.Identifier.fromFilePath_go
+                        Website.News.newsRules42 of wild {
+                   [] -> GHC.Types.[] @ GHC.Types.Char
+                   : x xs1
+                   -> Data.OldList.intercalate_$spoly_go
+                        @ GHC.Types.Char
+                        x
+                        (Data.OldList.prependToAll
+                           @ [GHC.Types.Char]
+                           Hakyll.Core.Identifier.fromFilePath1
+                           xs1) }) -}
+d1b3b2dc9feb126506f18ebfcc4900cd
+  newsRules42 :: [GHC.IO.FilePath]
+  {- Unfolding: (System.FilePath.Posix.splitPath
+                   Website.News.newsRules43) -}
+1fada5abcf57faebc7b87f3ae9710353
+  newsRules43 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "templates/news-list.html"#) -}
+dedc5ad6a45616b99c76d23b0bb7d210
+  newsRules44 ::
+    Hakyll.Core.Compiler.Internal.CompilerRead
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Hakyll.Core.Compiler.Internal.CompilerResult
+            (Hakyll.Core.Item.Item GHC.Base.String) #)
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><S,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: Hakyll.Core.Compiler.Internal.CompilerRead)
+                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 ((Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$c>>=
+                     @ Hakyll.Core.Identifier.Identifier
+                     @ (Hakyll.Core.Item.Item GHC.Base.String)
+                     Hakyll.Core.Compiler.getUnderlying
+                     (\ (identifier :: Hakyll.Core.Identifier.Identifier)
+                        (eta2 :: Hakyll.Core.Compiler.Internal.CompilerRead)
+                        (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                      (# eta3,
+                         Hakyll.Core.Compiler.Internal.CompilerDone
+                           @ (Hakyll.Core.Item.Item GHC.Base.String)
+                           (Hakyll.Core.Item.Item
+                              @ GHC.Base.String
+                              identifier
+                              (GHC.Types.[] @ GHC.Types.Char))
+                           Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$cmempty #))
+                       `cast`
+                     (<Hakyll.Core.Identifier.Identifier>_R
+                      ->_R Trans
+                               (<Hakyll.Core.Compiler.Internal.CompilerRead>_R
+                                ->_R Sym (GHC.Types.N:IO[0]
+                                              <Hakyll.Core.Compiler.Internal.CompilerResult
+                                                 (Hakyll.Core.Item.Item GHC.Base.String)>_R))
+                               (Sym (Hakyll.Core.Compiler.Internal.N:Compiler[0]
+                                         <Hakyll.Core.Item.Item GHC.Base.String>_R))))
+                    `cast`
+                  (Hakyll.Core.Compiler.Internal.N:Compiler[0]
+                       <Hakyll.Core.Item.Item GHC.Base.String>_R)
+                    eta)
+                   `cast`
+                 (GHC.Types.N:IO[0]
+                      <Hakyll.Core.Compiler.Internal.CompilerResult
+                         (Hakyll.Core.Item.Item GHC.Base.String)>_R)
+                   eta1) -}
+f01d0a7080b6035b0b50ba8a39303422
+  newsRules45 :: [Hakyll.Core.Identifier.Identifier]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Hakyll.Core.Identifier.Identifier
+                   Website.News.newsRules46
+                   (GHC.Types.[] @ Hakyll.Core.Identifier.Identifier)) -}
+9416b8232a5c1862700fd2a8053b57c7
+  newsRules46 :: Hakyll.Core.Identifier.Identifier
+  {- Strictness: m,
+     Unfolding: (Hakyll.Core.Identifier.Identifier
+                   (GHC.Base.Nothing @ GHC.Base.String)
+                   Website.News.newsRules47) -}
+dc65129c7c491f52ffc081e3439bbe2b
+  newsRules47 :: GHC.Base.String
+  {- Unfolding: (case Hakyll.Core.Identifier.fromFilePath_go
+                        Website.News.newsRules48 of wild {
+                   [] -> GHC.Types.[] @ GHC.Types.Char
+                   : x xs1
+                   -> Data.OldList.intercalate_$spoly_go
+                        @ GHC.Types.Char
+                        x
+                        (Data.OldList.prependToAll
+                           @ [GHC.Types.Char]
+                           Hakyll.Core.Identifier.fromFilePath1
+                           xs1) }) -}
+7627a9f3bbc74e41f7ffafde2791e7c8
+  newsRules48 :: [GHC.IO.FilePath]
+  {- Unfolding: (System.FilePath.Posix.splitPath
+                   Website.News.allNewsField7) -}
+d670120cbf00f47e06bb95fedd957219
+  newsRules5 ::
+    Hakyll.Core.Compiler.Internal.Compiler
+      Hakyll.Core.Item.SomeItem.SomeItem
+  {- Arity: 2,
+     Unfolding: (Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$cfmap
+                   @ (Hakyll.Core.Item.Item GHC.Base.String)
+                   @ Hakyll.Core.Item.SomeItem.SomeItem
+                   Website.News.newsRules22
+                   Website.News.newsRules_compiler) -}
+a4a8ce80f082d22cc50429d5ff94d595
+  newsRules6 ::
+    Hakyll.Core.Item.Item GHC.Base.String
+    -> Hakyll.Core.Compiler.Internal.Compiler
+         (Hakyll.Core.Item.Item GHC.Base.String)
+  {- Arity: 1,
+     Unfolding: (Website.Utils.postProcessTemplates
+                   Website.News.allNewsField25
+                     `cast`
+                   (Sym (Hakyll.Web.Template.Context.N:Context[0]
+                             <[GHC.Types.Char]>_R))
+                   Website.News.newsRules7) -}
+eb6edc8a75830ed1d82104bc1d3f7c7d
+  newsRules7 :: [Hakyll.Core.Identifier.Identifier]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Hakyll.Core.Identifier.Identifier
+                   Website.News.newsRules18
+                   Website.News.newsRules8) -}
+cfa27e79e5691d7b48c1fd7e9b249d04
+  newsRules8 :: [Hakyll.Core.Identifier.Identifier]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Hakyll.Core.Identifier.Identifier
+                   Website.News.newsRules14
+                   Website.News.newsRules9) -}
+3065381f807c7dd4055a7de2c940aea5
+  newsRules9 :: [Hakyll.Core.Identifier.Identifier]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Hakyll.Core.Identifier.Identifier
+                   Website.News.newsRules10
+                   (GHC.Types.[] @ Hakyll.Core.Identifier.Identifier)) -}
+71314ca06ecf04f9e8259b6625cd9a54
+  newsRules_compiler ::
+    Hakyll.Core.Compiler.Internal.Compiler
+      (Hakyll.Core.Item.Item GHC.Base.String)
+  {- Arity: 2,
+     Unfolding: (Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$c>>=
+                   @ (Hakyll.Core.Item.Item GHC.Base.String)
+                   @ (Hakyll.Core.Item.Item GHC.Base.String)
+                   Hakyll.Web.Pandoc.pandocCompiler1
+                     `cast`
+                   (Trans
+                        (<Hakyll.Core.Compiler.Internal.CompilerRead>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Hakyll.Core.Compiler.Internal.CompilerResult
+                                          (Hakyll.Core.Item.Item GHC.Base.String)>_R))
+                        (Sym (Hakyll.Core.Compiler.Internal.N:Compiler[0]
+                                  <Hakyll.Core.Item.Item GHC.Base.String>_R)))
+                   Website.News.newsRules6) -}
+68cb20d6dc4e3f18869af75494b76e34
+  newsRules_compiler1 ::
+    Hakyll.Core.Compiler.Internal.Compiler
+      (Hakyll.Core.Item.Item GHC.Base.String)
+  {- Arity: 2,
+     Unfolding: (Hakyll.Core.Compiler.Internal.$fAlternativeCompiler_$c>>=
+                   @ (Hakyll.Core.Item.Item GHC.Base.String)
+                   @ (Hakyll.Core.Item.Item GHC.Base.String)
+                   Website.News.newsRules38
+                   Website.News.newsRules33) -}
+4fb5db253922d64e8bf154980faab4f9
+  newsRules_eta :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "Archive"#) -}
+340606ee4b79d1a4220eeeda6b0dbfe7
+  newsRules_key :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "title"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

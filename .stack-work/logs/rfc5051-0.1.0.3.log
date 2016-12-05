@@ -1,0 +1,15 @@
+Configuring rfc5051-0.1.0.3...
+Building rfc5051-0.1.0.3...
+Preprocessing library rfc5051-0.1.0.3...
+[1 of 3] Compiling Data.RFC5051.Types ( Data/RFC5051/Types.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/RFC5051/Types.o )
+[2 of 3] Compiling Data.RFC5051.UnicodeData ( Data/RFC5051/UnicodeData.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/RFC5051/UnicodeData.o )
+[3 of 3] Compiling Data.RFC5051     ( Data/RFC5051.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/RFC5051.o )
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+ghc: unable to decommit memory: Invalid argument
+Installing library in
+/home/ppk/.stack/snapshots/x86_64-linux/lts-7.9/8.0.1/lib/x86_64-linux-ghc-8.0.1/rfc5051-0.1.0.3-Hc1JmjcKC9H3Xw0COFR7YY
+Registering rfc5051-0.1.0.3...
